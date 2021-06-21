@@ -28,7 +28,11 @@ nav h6 {
     margin-top: 80px;  
 }
 .container-1{
-    width: 330px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container-1 header{
     font-size: 35px;
@@ -36,7 +40,8 @@ nav h6 {
     margin:0 0 30px 0;
 }
 .container-1 .form-outer{
-    width: 100%;
+    width: 600px;
+    margin: 0 auto;
     overflow: hidden;
 }
 .form-outer form{
@@ -54,7 +59,7 @@ nav h6 {
 }
 .form-outer form .page .field{
 height: 45px;
-width: 330px;
+/* width: 330px; */
 margin: 45px 0;
 position: relative;
 display: flex;
@@ -103,6 +108,7 @@ form .page .btns button.next{
 .container-1 .progress-bar-1{
     display: flex;
     margin: 40px 0;
+    width: 336px;
 }
 .container-1 .progress-bar-1 .step{
    text-align: center;
@@ -162,7 +168,6 @@ transition: 0.2s;
      width: 43px;
      bottom: 11px;
      right: -51px;
-     width: 44px;
      background: gray
  }
  .progress-bar-1 .step:last-child .bullet:before,
@@ -185,4 +190,13 @@ transition: 0.2s;
     transform: scaleX(1);
 }
 }
- 
+@media screen and (max-width: 500px) {
+
+    .container-1 .form-outer{
+        width: 330px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+
+  }
