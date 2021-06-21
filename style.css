@@ -30,23 +30,15 @@ nav h6 {
 }
 .container-1{
     width: 330px;
-    /* padding: 50px 35px 10px 35px; */
-    /* border-radius: 5px; */
-    /* text-align: center; */
-      /*  */
 }
 .container-1 header{
     font-size: 35px;
     font-weight: 600;
     margin:0 0 30px 0;
-    
-
 }
 .container-1 .form-outer{
     width: 100%;
     overflow: hidden;
-    /* background-color: #fff; */
-    /* padding: 20px; */
 }
 .form-outer form{
     display: flex;
