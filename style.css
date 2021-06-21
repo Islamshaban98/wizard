@@ -25,8 +25,7 @@ nav h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    
+    margin-top: 80px;  
 }
 .container-1{
     width: 330px;
@@ -46,7 +45,7 @@ nav h6 {
 }
 .form-outer form .page{
     width: 25%;
-    
+    transition: margin-left 0.3s ease-in-out;
 }
 .form-outer form .page .title{
     text-align: center;
