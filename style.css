@@ -12,15 +12,15 @@ body{
     /* height: 100vh; */
     background-color: #ffffff;
 }
-.container{
+.container-1{
     width: 330px;
 }
-.container header{
+.container-1 header{
     font-size: 35px;
     font-weight: 600;
     margin:0 0 30px 0;
 }
-.container .form-outer{
+.container-1 .form-outer{
     width: 100%;
     overflow: hidden;
 }
@@ -72,22 +72,22 @@ display: flex;
 .form-outer form .page .field button:hover{
     background-color: black;
 }
-.container .progress-bar{
+.container-1 .progress-bar-1{
     display: flex;
     margin: 40px 0;
 }
-.container .progress-bar .step{
+.container-1 .progress-bar-1 .step{
    text-align: center;
    width: 100%;
    position: relative;
 }
-.container .progress-bar .step p{
+.container-1 .progress-bar-1 .step p{
 font-size: 18px;
 font-weight: 600;
 color: black;
 margin-bottom: 8px;
  }
- .progress-bar .step .bullet{
+ .progress-bar-1 .step .bullet{
    height: 25px;
    width: 25px;
    border: 1px solid #05cab6;
@@ -98,7 +98,7 @@ margin-bottom: 8px;
    line-height: 25px;
    position: relative;
  }
- .progress-bar .step span{
+ .progress-bar-1 .step span{
      font-weight: 600;
      font-size: 17px;
      line-height: 25px;
@@ -106,15 +106,15 @@ margin-bottom: 8px;
      left: 50%;
      transform: translateX(-50%);
  }
- .progress-bar .step .check{
+ .progress-bar-1 .step .check{
      position: absolute;
      left: 50%;
      top: 70%;
      transform: translate(-50%, -50%);
      display: none;
  }
- .progress-bar .step .bullet:before,
- .progress-bar .step .bullet:after
+ .progress-bar-1 .step .bullet:before,
+ .progress-bar-1 .step .bullet:after
  {
      position:absolute;
      content: '';
@@ -125,11 +125,11 @@ margin-bottom: 8px;
      width: 44px;
      background: gray
  }
- .progress-bar .step:last-child .bullet:before,
- .progress-bar .step:last-child .bullet:after{
+ .progress-bar-1 .step:last-child .bullet:before,
+ .progress-bar-1 .step:last-child .bullet:after{
      display: none;
  }
- .progress-bar .step .bullet:after{
+ .progress-bar-1 .step .bullet:after{
      background: #05cab6;
      transform: scaleX(0);
      transform-origin: left;
