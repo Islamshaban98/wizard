@@ -47,7 +47,7 @@ nav h6 {
 .form-outer form{
     display: flex;
     width: 400%;
-    height: 140vh;
+    /* height: 140vh; */
 }
 .form-outer form .page{
     width: 25%;
