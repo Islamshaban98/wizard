@@ -123,7 +123,7 @@ form .page .btns button.next{
    position: relative;
 }
 .container-1 .progress-bar-1 .step p{
-font-size: 18px;
+font-size: 15px;
 font-weight: 600;
 color: black;
 margin-bottom: 8px;
@@ -442,6 +442,12 @@ article {
 nav h6 {
     float: right;
     margin-top: 25px;
+}
+.template-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .template-item .image img {
     object-position: contain;
