@@ -40,7 +40,7 @@ nav h6 {
     margin:0 0 30px 0;
 }
 .container-1 .form-outer{
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -200,3 +200,72 @@ transition: 0.2s;
 
 
   }
+
+  nav {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav h6 {
+    float: right;
+    margin-top: 25px;
+}
+.template-item .image img {
+    object-position: contain;
+}
+
+.template-item .image {
+    width: 100%;
+}
+
+.template-item .image img {
+    display: block;
+    width: 100%;
+}
+.template-item .image img {
+    display: block;
+    width: 100%;
+}
+.template-item h5 {
+    font-size: 18px;
+}
+
+.template-item img {
+    height: 360px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.template-item div {
+    float: right;
+}
+
+.template-item div i {
+    font-size: 23px ;
+}
+ul.nav li.nav-item button.nav-link {
+    color: var(--font-prim);
+}
+ul.nav li.nav-item button.nav-link.active {
+    background-color: var(--main--color) !important;
+    color: #fff;
+    border-radius: 6px;
+}
+.res-icons img {
+    display: inline-block;
+    width: 23px;  
+    height: auto;
+    margin-left: 11px;
+}
+ul.nav li.nav-item button.nav-link {
+    color: #0f0f0f;
+}
+ul.nav li.nav-item button.nav-link.active {
+    background-color: #05CAB6 !important;
+    color: #fff;
+    border-radius: 6px;
+}
