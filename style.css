@@ -47,7 +47,12 @@ nav h6 {
 .form-outer form{
     display: flex;
     width: 400%;
-    /* height: 140vh; */
+    /* height: 180vh; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .form-outer form .page{
     width: 25%;
@@ -251,6 +256,9 @@ transition: 0.2s;
     .plans .plan-item  div p {
         font-size: 14px;
      }
+     .logo{
+      flex-direction: column;
+    }
   }
   @media screen and (max-width: 500px) {
     .container-1 .form-outer{
@@ -422,16 +430,6 @@ article {
 .plan-item .mycontainer a.btn.fill span i {
     color: #fff !important;
 }
-
- 
-
-
-
-
-
-
-  }
-
   nav {
     background-color: #fff;
     width: 100%;
